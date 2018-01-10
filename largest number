@@ -2,7 +2,7 @@
 void main()
 {
 int a,b,c;
-printf("enter the largest number:");
+printf("enter the three number:");
 scanf("%d%d%d",&a&b&c);
 if(a>b&&a>c)
 a=larger;
@@ -16,5 +16,5 @@ else
 if(c>a&&c>b)
 c=larger;
 }
-return 0;
+printf("enter the largest number is %d",largest);
 }
