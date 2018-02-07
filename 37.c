@@ -1,12 +1,19 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int swap (int *,int *);
+int main()
 {
-    int a=5,b=8,t;
-    printf("value of 'a' and 'b' before swaping%d%d\n",a,b);
-    t=a;
-    a=b;
-    b=t;
-    printf("value of 'a' and 'b' after swaping%d%d\n",a,b);
-    return 0;
+int i,j,n,b;
+printf("enter two numbers n & a");
+scanf("%d %d",&n,&b);
+swap(&n,&b);
+printf("after swap n=%d a=%d",n,b);
 }
+int swap(int *x,int *y)
+{
+    int t;
+    t=*x;
+    *x=*y;
+    *y=t;
+    }
+   
