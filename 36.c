@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
 	int count=0,i;
 	char s[50];
