@@ -2,13 +2,13 @@
 #include<string.h>
 void main()
 {
-    int i,b=0,c=0,d; char a[100];
+    int i,a=0,b=0,d; char s[100];
     printf("enter the char:");
-    scanf("%s",&a);
-        d=strlen(a);
+    scanf("%s",&s);
+        d=strlen(s);
  for(i=0;i<d;i++)
  {
-     if((a[i]=='0')||(a[i]=='1'))
+     if((s[i]=='0')||(s[i]=='1'))
     {
          b++;
 }
@@ -18,7 +18,7 @@ void main()
      }
     
  }
- if(c==0)
+ if(b==0)
     printf("yes");
     else
     printf("no");
